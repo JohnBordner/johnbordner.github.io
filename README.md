@@ -1,18 +1,18 @@
 # **johnbordner.github.io**
-##Projects
+## Projects
 
 Sample text here
 More Sample text here
 Third row of Sample text here
 
-##About Me
+## About Me
 
 Sample text here
 More Sample text here
 Third row of Sample text here
 
 
-##Contact Info
+## Contact Info
 
 Sample text here
 More Sample text here
