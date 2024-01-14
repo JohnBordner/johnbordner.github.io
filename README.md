@@ -1,19 +1,19 @@
 # **johnbordner.github.io**
 ## Projects
 
-Sample text here\
-More Sample text here\
-Third row of Sample text here
+Please Standy by\
+Projects will be posted soon\
+Thanks for your patience!
 
 ## About Me
 
-Sample text here\
-More Sample text here\
-Third row of Sample text here
+IT professional\
+Computer Science Student at Metropolitan State University\
+Aspiring Software Developer
 
 
 ## Contact Info
 
-Sample text here\
-More Sample text here\
-Third row of Sample text here
+Email: john.bordner@outlook.com\
+Linkedin: www.linkedin.com/in/johnathan-bordner-9496482aa\
+Github: https://github.com/JohnBordner
