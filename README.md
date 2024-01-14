@@ -15,5 +15,5 @@ Aspiring Software Developer
 ## Contact Info
 
 Email: john.bordner@outlook.com\
-Linkedin: www.linkedin.com/in/johnathan-bordner-9496482aa\
+Linkedin: www.linkedin.com/in/johnathan-bordner-9496482aa \
 Github: https://github.com/JohnBordner
