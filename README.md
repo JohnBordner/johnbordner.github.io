@@ -1,7 +1,7 @@
 # **johnbordner.github.io**
 ## Projects
 
-Please Standy by\
+Please Stand by\
 Projects will be posted soon\
 Thanks for your patience!
 
