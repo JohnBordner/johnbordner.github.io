@@ -44,7 +44,9 @@ header{
     z-index: 1;
     /*overflow: auto;*/
 }
-
+.content h1{
+    text-align: center;
+}
 
 .nav_buttons {
     display: flex;
