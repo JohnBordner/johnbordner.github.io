@@ -140,15 +140,33 @@ body {
     border-color: #2b7a78;
 }
 @media (max-width: 768px) {
+
+    
+
+    header {
+        padding: 10px 15px; 
+        justify-content: center;
+
+    }
+
+    .logo h1 {
+        display: none;
+    }
+
+
     .nav_buttons {
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
         top: auto; 
-        bottom: 20px; 
-        right: 20px; 
+        margin-top: 10px;
+        margin-left: 26%;
+        overflow-y: auto;
+        max-height: calc(100vh - 60px);
+        position: relative;
+        
     }.nav_buttons button {
         font-size: 1.2em;
-        padding: 10px 15px; 
+        padding: 8px 10px; 
         border-radius: 10px;
     }
 }
@@ -165,6 +183,7 @@ footer {
     background: rgba(20, 20, 20, 0.8);
     backdrop-filter: blur(5px);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1000;
 }
 
 .contact_buttons {
@@ -222,7 +241,7 @@ footer {
     text-align: center;
     justify-content: center;
     display: flex;
-    margin-top
+    
 }
 
 .image1{
