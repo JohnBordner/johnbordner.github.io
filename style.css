@@ -6,7 +6,9 @@
 }
 html, body {
     height: 100%; 
-    background-image: url('space.webp');
+    /* background-image: url('space.webp'); */ 
+    background-color: black;
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +16,7 @@ html, body {
 }
 
 html {
-    background-color: grey; 
+    background-color: black; 
 }
 
 
@@ -41,13 +43,13 @@ body {
         z-index: 1000;
     }
     .logo {
-        color: #f4f4f9;
+        color: #b2ebf2;
         font-weight: bold;
         font-size: 1.5em;
     }    
 
     .content {
-        background-color: rgba(255, 255, 255, 0.9);
+        color: #b2ebf2;
         padding: 40px;
         width: 70%;
         margin: 150px auto;
@@ -61,8 +63,7 @@ body {
 
 
 .home-content{
-    
-    background-color: rgba(255, 255, 255, 0.9);
+    color: #b2ebf2;
     padding: 20px;
     width: 70%;
     margin: 50px auto;
@@ -84,7 +85,6 @@ body {
 
 
 #pdf {
-    background-color: aliceblue;
     padding: 20px;
     width: 70%;
     margin: 150px auto;
