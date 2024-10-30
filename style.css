@@ -113,12 +113,18 @@ body {
 
 
 
-#mainpara{
+
+
+#mainpara {
     text-align: center;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 1.5%; /* Adjust margin-top as needed */
+    margin-left: 4%; /* Adjust margins to percentages */
+    margin-right: 4%; /* Adjust margins to percentages */
 }
+
+
+
+
 
 .nav_buttons {
     display: flex;
@@ -150,7 +156,7 @@ body {
     
 
     header {
-        padding: 10px 15px; 
+        padding: 5% 2%; 
         justify-content: center;
 
     }
@@ -159,23 +165,34 @@ body {
         display: none;
     }
 
+    
+
+
+
 
     .nav_buttons {
         flex-direction: row;
         gap: 5px;
         top: auto; 
         margin-top: 10px;
-        margin-left: 26%;
         overflow-y: auto;
         max-height: calc(100vh - 60px);
         position: relative;
-        
+        justify-content: center;
+        display: flex;
+        max-width: 100%; 
+        box-sizing: border-box;
+        left: 0; 
+        right: 0;
     }.nav_buttons button {
         font-size: 1.2em;
         padding: 8px 10px; 
         border-radius: 10px;
     }
 }
+
+
+
 
 footer {
     display: flex;
