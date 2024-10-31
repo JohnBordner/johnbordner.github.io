@@ -4,6 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html::before {
+    content: ""; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    z-index: -1; 
+}
+
+
+
+
 html, body {
     height: 100%; 
     /* background-image: url('space.webp'); */ 
@@ -12,7 +27,7 @@ html, body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
 }
 
 html {
@@ -117,9 +132,9 @@ body {
 
 #mainpara {
     text-align: center;
-    margin-top: 1.5%; /* Adjust margin-top as needed */
-    margin-left: 4%; /* Adjust margins to percentages */
-    margin-right: 4%; /* Adjust margins to percentages */
+    margin-top: 1.5%; 
+    margin-left: 4%; 
+    margin-right: 4%; 
 }
 
 
@@ -153,7 +168,14 @@ body {
 }
 @media (max-width: 768px) {
 
-    
+
+    /*TEST
+    header, footer {
+        position: sticky; 
+        z-index: 1000;
+        bottom: 0; 
+    }
+    */
 
     header {
         padding: 5% 2%; 
@@ -184,6 +206,13 @@ body {
         box-sizing: border-box;
         left: 0; 
         right: 0;
+
+     
+        
+        
+
+
+
     }.nav_buttons button {
         font-size: 1.2em;
         padding: 8px 10px; 
