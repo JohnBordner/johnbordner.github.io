@@ -100,8 +100,7 @@ body {
 
 
 #pdf {
-    padding: 20px;
-    width: 70%;
+    width: 80%;
     margin: 150px auto;
     height: 80vh; 
     overflow: hidden;
@@ -249,7 +248,7 @@ footer {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: #fff;
+    background: #fff !important;
     border-radius: 50%;
     transition: background-color 0.3s ease;
 }
