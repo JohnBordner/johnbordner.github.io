@@ -35,7 +35,7 @@ const projectList: Project[] = [
   {
     title: "JohnBordner.com",
     description: "This is my portfolio website that I built using React",
-    techStack: "React, Typescript, HTML/CSS",
+    techStack: "React, Typescript, JSX, CSS",
     image: websitecode,
     link: "https://johnbordner.com",
     github: "https://github.com/JohnBordner/johnbordner.github.io",
