@@ -1,0 +1,94 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 17px; /* was originally 15px*/
+    background: rgba(20, 20, 20, 0.8);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+  }
+  
+  .contact_buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contact_buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #fff !important;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact_buttons a:hover {
+    background-color: #2b7a78;
+  }
+  
+  
+  .contact-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; 
+    object-fit: cover;
+  }
+  
+  #github  img{
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+    transform:scale(1.4);
+  }
+  #linkedin  img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  #github {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white; 
+    transition: background-color 0.3s ease;
+  }
+  
+  #linkedin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white; 
+    transition: background-color 0.3s ease;
+  }
+  
+  #linkedin:hover {
+    background-color: rgba(0, 122, 255, 0.8);
+  }
+  
+  #github:hover {
+    background-color: rgba(0, 122, 255, 0.8);
+  }
+  
+  
+
+  
+  

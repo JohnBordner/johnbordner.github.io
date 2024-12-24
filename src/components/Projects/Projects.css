@@ -1,0 +1,18 @@
+#projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    #projects-section {
+      padding: 10px; 
+    }
+  }
+  
