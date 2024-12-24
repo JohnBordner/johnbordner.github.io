@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
   techStack,
   image,
-  link,
+  //link,
   github,
 }) => {
   return (
