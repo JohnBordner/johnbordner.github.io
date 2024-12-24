@@ -1,10 +1,11 @@
 import "./Bio.css";
 import ImageContainer from "../ImageContainer/ImageContainer";
+import headshot from "/headshot.jpg";
 
 const Bio = () => {
   return (
     <div className="home-all">
-      <ImageContainer src="headshot.jpg" alt="Headshot" />
+      <ImageContainer src={headshot} alt="Headshot" />
       <div className="home-content">
         <h1>John Bordner</h1>
         <h3>Software Developer</h3>
