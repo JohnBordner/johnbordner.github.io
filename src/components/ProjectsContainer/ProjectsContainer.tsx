@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import "./ProjectsContainer.css";
 
+import predictfootball from "/predict-football1.png";
+import chatdemo from "/chat-demo.png";
+import websitecode from "/website-code.png";
+
 interface Project {
   title: string;
   description: string;
@@ -16,7 +20,7 @@ const projectList: Project[] = [
     title: "NFL Pick'em Tracker",
     description: "Predict the outcome of NFL games and track your record",
     techStack: "Java, Spring, mySQL, RapidAPI, HTML/CSS",
-    image: "predict-football1.png",
+    image: predictfootball,
     link: "https://example.com/project1",
     github: "https://github.com/JohnBordner/NFLPredictionTracker",
   },
@@ -24,7 +28,7 @@ const projectList: Project[] = [
     title: "CMD Chat",
     description: "A command line chat client and TCP server program",
     techStack: "Python",
-    image: "chat-demo.png",
+    image: chatdemo,
     link: "https://example.com/project2",
     github: "https://github.com/JohnBordner/chat_program",
   },
@@ -32,7 +36,7 @@ const projectList: Project[] = [
     title: "JohnBordner.com",
     description: "This is my portfolio website that I built using React",
     techStack: "React, Typescript, HTML/CSS",
-    image: "website-code.png",
+    image: websitecode,
     link: "https://johnbordner.com",
     github: "https://github.com/JohnBordner/johnbordner.github.io",
   },
