@@ -1,0 +1,105 @@
+.nav_buttons {
+    display: flex;
+    color: #f4f4f9;
+    position: fixed; 
+    top: 20px;
+    right: 50px;
+    gap: 10px;
+  }
+  
+  .nav_buttons button {
+    background: transparent;
+    /*border: 1px solid white;*/
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav_buttons button:hover {
+    background-color: rgba(0, 122, 255, 0.8);
+    color: #fff;
+    border-color: #2b7a78;
+  }
+
+  header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 30px;
+    background: rgba(20, 20, 20, 0.8);
+    backdrop-filter: blur(5px); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+}
+
+
+
+
+  @media (max-width: 768px) {
+  
+  
+    /*TEST
+    header, footer {
+        position: sticky; 
+        z-index: 1000;
+        bottom: 0; 
+    }
+    */
+  
+    header {
+      padding: 5% 2%; 
+      justify-content: center;
+
+  }
+
+  
+
+
+  
+    .logo h1 {
+        display: none;
+    }
+  
+    
+  
+  
+  
+  
+    .nav_buttons {
+        flex-direction: row;
+        gap: 5px;
+        top: auto; 
+        margin-top: 10px;
+        overflow-y: auto;
+        max-height: calc(100vh - 60px);
+        position: relative;
+        justify-content: center;
+        display: flex;
+        max-width: 100%; 
+        box-sizing: border-box;
+        left: 0; 
+        right: 0;
+  
+     
+        
+        
+  
+  
+  
+    }.nav_buttons button {
+        font-size: 1.2em;
+        padding: 8px 10px; 
+        border-radius: 10px;
+    }
+
+    
+
+
+
+
+  }

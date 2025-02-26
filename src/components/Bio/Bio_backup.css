@@ -1,0 +1,36 @@
+.home-content{
+    color: #b2ebf2;
+    padding: 20px;
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 50px;
+    
+  }
+  .home-content h1{
+    text-align: center;
+  }
+  .home-content h3{
+    text-align: center;
+  }
+
+  
+   /*.home-all{
+    padding-bottom: 50px; }*/
+  
+  
+  .image-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
+    height: auto; 
+
+  }
+  
+  #mainpara {
+    text-align: center;
+    margin-top: 1.5%; 
+    margin-left: 2%; 
+    margin-right: 2%; 
+}

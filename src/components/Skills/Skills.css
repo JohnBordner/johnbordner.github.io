@@ -1,0 +1,31 @@
+.skills-section {
+    padding-top: 11%;
+    padding-bottom: 18%;
+    text-align: center;
+    background: linear-gradient(to bottom, #000000, #1a153a, #2b286e, #3634a3, #4a40d4, #6258f0);
+    
+
+    
+  }
+  
+  .skills-section h1 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  h1{
+    color:#f5f5f7;
+    text-align: center;
+  }
+
+
+  @media (max-width: 768px) {
+    #skills-section {
+      padding: 10px;
+    }
+    h1 {
+      margin-top: 22%;
+    }
+
+  }
+  
