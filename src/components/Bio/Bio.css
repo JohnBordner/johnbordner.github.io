@@ -8,13 +8,13 @@
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     background-color: #000000;
+    width: 100vw;
   }
   
   .home-content {
     flex: 1;
     padding: 30px;
     border-radius: 20px;
-   
     background: rgba(0, 122, 255, 0.8);
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.4), inset -2px -2px 5px rgba(255, 255, 255, 0.1);
   }
@@ -50,11 +50,6 @@
     align-items: center;
   
   }
-
-  .image-container:hover {
- 
-  }
-
   
   .image-container img {
     max-width: 100%;
@@ -78,7 +73,7 @@
   
     .home-content {
       text-align: center; 
-      padding: 10px 20px; 
+      padding: 0px 20px 60px 20px; 
       width: 100%; 
       max-width: 370px;
       box-sizing: border-box; 

@@ -10,13 +10,7 @@ const Bio = () => {
         <h1>John Bordner</h1>
         <h3>Software Developer</h3>
         <p id="mainpara">
-          I am a versatile developer passionate about building software
-          solutions from the ground up, with a focus on quality, functionality,
-          and user experience. My expertise lies in building robust Java web
-          applications using the Spring framework, complemented by ongoing
-          proficiency in React for modern web development. I am also deeply
-          interested in mobile application development and continually expanding
-          my skills to create impactful and user-centric applications.
+          I build web applications and work with embedded systems, focusing on clean engineering from software to hardware.
         </p>
       </div>
     </div>
