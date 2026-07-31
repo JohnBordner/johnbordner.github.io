@@ -41,6 +41,10 @@ const Skills: React.FC = () => {
             name: "Next.js",
             icon: "https://images.seeklogo.com/logo-png/32/2/next-js-logo-png_seeklogo-321806.png",
           },
+          {
+            name: "FastAPI",
+            icon: "https://images.seeklogo.com/logo-png/56/1/fastapi-logo-png_seeklogo-568734.png",
+          },
         ]}
       />
 
